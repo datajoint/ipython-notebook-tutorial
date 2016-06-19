@@ -56,3 +56,5 @@ class Scan(dj.Manual):
     wavelength : smallint  # (nm)  laser wavelength
     mwatts: numeric(4,1)  # (mW) laser power to brain
     """
+
+schema.spawn_missing_classes()
